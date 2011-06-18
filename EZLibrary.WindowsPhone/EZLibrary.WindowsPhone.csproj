@@ -66,8 +66,18 @@
     <Compile Include="..\EZLibrary.4.0\StringExtensions.cs">
       <Link>StringExtensions.cs</Link>
     </Compile>
+    <Compile Include="Interactivity\DoubleTapTrigger.cs" />
+    <Compile Include="Interactivity\DragAndDropBehavior.cs" />
+    <Compile Include="Interactivity\DragCompletedTrigger.cs" />
+    <Compile Include="Interactivity\DragDelta.cs" />
+    <Compile Include="Interactivity\DragStartedTrigger.cs" />
+    <Compile Include="Interactivity\FlickTrigger.cs" />
     <Compile Include="Interactivity\GestureBehavior.cs" />
     <Compile Include="Interactivity\GestureTrigger.cs" />
+    <Compile Include="Interactivity\HoldTrigger.cs" />
+    <Compile Include="Interactivity\PinchCompletedTrigger.cs" />
+    <Compile Include="Interactivity\PinchDeltaTrigger.cs" />
+    <Compile Include="Interactivity\PinchStartedTrigger.cs" />
     <Compile Include="Interactivity\TapTrigger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
@@ -89,6 +99,7 @@
     <Resource Include="Toolkit.Content\ApplicationBar.Cancel.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Interactivity\readme.txt" />
     <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
