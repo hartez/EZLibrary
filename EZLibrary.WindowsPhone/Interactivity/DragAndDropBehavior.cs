@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Interactivity;
-using EZLibrary.WindowsPhone.Interactivity;
 
-namespace GestureTests.Interactivity
+namespace EZLibrary.WindowsPhone.Interactivity
 {
 	public class DragAndDropBehavior : GestureBehavior
 	{
