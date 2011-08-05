@@ -13,7 +13,7 @@ namespace TodotxtTouch.WindowsPhone
 	{
 		private const string filename = "LittleWatson.txt";
 
-		internal static void ReportException(Exception ex, string extra)
+		public static void ReportException(Exception ex, string extra)
 		{
 			try
 			{
@@ -38,7 +38,7 @@ namespace TodotxtTouch.WindowsPhone
 		}
 
 
-		internal static void CheckForPreviousException(string reportSubject, string reportToEmail)
+		public static void CheckForPreviousException(string reportSubject, string reportToEmail)
 		{
 			try
 			{
