@@ -44,20 +44,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GalaSoft.MvvmLight.Extras.WP7">
-      <HintPath>..\packages\MvvmLight.3.0.2\lib\sl3-wp\GalaSoft.MvvmLight.Extras.WP7.dll</HintPath>
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl3-wp\GalaSoft.MvvmLight.Extras.WP7.dll</HintPath>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight.WP7">
-      <HintPath>..\packages\MvvmLight.3.0.2\lib\sl3-wp\GalaSoft.MvvmLight.WP7.dll</HintPath>
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl3-wp\GalaSoft.MvvmLight.WP7.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
-      <HintPath>..\packages\SilverlightToolkitWP.4.2011.2.1\lib\sl4\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+      <HintPath>..\packages\SilverlightToolkitWP.4.2011.8.17\lib\sl3-wp\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Interactivity, Version=3.7.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\MvvmLight.3.0.2\lib\sl3-wp\System.Windows.Interactivity.dll</HintPath>
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl3-wp\System.Windows.Interactivity.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Net" />
@@ -89,23 +89,11 @@
     <Compile Include="ViewModel\ViewModelLocator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Content Include="Interactivity\readme.txt" />
+    <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Toolkit.Content\ApplicationBar.Check.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Toolkit.Content\ApplicationBar.Cancel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Interactivity\readme.txt" />
-    <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
