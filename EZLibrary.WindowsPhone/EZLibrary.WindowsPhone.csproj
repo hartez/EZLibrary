@@ -92,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Toolkit.Content\" />
