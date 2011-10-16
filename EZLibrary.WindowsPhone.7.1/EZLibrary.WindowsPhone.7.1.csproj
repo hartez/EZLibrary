@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{707F8B31-0130-4A49-8DFC-3BC0D4346BEA}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EZLibrary.WindowsPhone._7._1</RootNamespace>
+    <AssemblyName>EZLibrary.WindowsPhone.7.1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight.Extras.WP71">
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl4-windowsphone71\GalaSoft.MvvmLight.Extras.WP71.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.WP71">
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl4-windowsphone71\GalaSoft.MvvmLight.WP71.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\packages\SilverlightToolkitWP.4.2011.8.17\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Interactivity, Version=3.8.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl4-windowsphone71\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="mscorlib.extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\EZLibrary.4.0\Collections\Generic\ObservableStack.cs">
+      <Link>ObservableStack.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.4.0\StringExtensions.cs">
+      <Link>StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\DoubleTapTrigger.cs">
+      <Link>Interactivity\DoubleTapTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\DragAndDropBehavior.cs">
+      <Link>Interactivity\DragAndDropBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\DragCompletedTrigger.cs">
+      <Link>Interactivity\DragCompletedTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\DragDelta.cs">
+      <Link>Interactivity\DragDelta.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\DragStartedTrigger.cs">
+      <Link>Interactivity\DragStartedTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\FlickTrigger.cs">
+      <Link>Interactivity\FlickTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\GestureBehavior.cs">
+      <Link>Interactivity\GestureBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\GestureTrigger.cs">
+      <Link>Interactivity\GestureTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\HoldTrigger.cs">
+      <Link>Interactivity\HoldTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\PinchCompletedTrigger.cs">
+      <Link>Interactivity\PinchCompletedTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\PinchDeltaTrigger.cs">
+      <Link>Interactivity\PinchDeltaTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\PinchStartedTrigger.cs">
+      <Link>Interactivity\PinchStartedTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\Interactivity\TapTrigger.cs">
+      <Link>Interactivity\TapTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\LittleWatson.cs">
+      <Link>LittleWatson.cs</Link>
+    </Compile>
+    <Compile Include="..\EZLibrary.WindowsPhone\NetworkHelper.cs">
+      <Link>NetworkHelper.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelLocator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Thumbs.db" />
+    <None Include="Toolkit.Content\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Toolkit.Content\ApplicationBar.Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Toolkit.Content\ApplicationBar.Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Toolkit.Content\ApplicationBar.Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\EZLibrary.WindowsPhone\Interactivity\readme.txt">
+      <Link>Interactivity\readme.txt</Link>
+    </Content>
+    <Content Include="README_FIRST.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
