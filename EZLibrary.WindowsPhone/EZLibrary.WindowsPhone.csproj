@@ -91,10 +91,14 @@
     <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
     <None Include="Thumbs.db" />
+=======
+    <None Include="packages.config" />
+>>>>>>> bec03c044110da3ac648654f78fbbec05e1ad0a0
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Toolkit.Content\" />
