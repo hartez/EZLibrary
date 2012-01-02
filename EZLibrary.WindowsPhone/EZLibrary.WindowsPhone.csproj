@@ -91,7 +91,9 @@
     <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
