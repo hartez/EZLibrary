@@ -8,12 +8,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB7C4A8C-134D-4748-BDCF-0D958DB5B1B0}"
 	ProjectSection(SolutionItems) = preProject
 		EZLibrary.WindowsPhone.nuspec = EZLibrary.WindowsPhone.nuspec
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.settings.targets = .nuget\NuGet.settings.targets
-		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZLibrary.WindowsPhone.7.1", "EZLibrary.WindowsPhone.7.1\EZLibrary.WindowsPhone.7.1.csproj", "{707F8B31-0130-4A49-8DFC-3BC0D4346BEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2057CFD1-DF7B-4226-B241-A24BD8BC90C3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
