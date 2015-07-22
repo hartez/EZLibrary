@@ -11,6 +11,9 @@
     <description>A library for small helpful classes I use across multiple Windows Phone projects</description>
     <copyright>Copyright 2012-2015</copyright>
     <tags>WP7 .NET</tags>
+    <dependencies>
+	  <dependency id="WPtoolkit" version="4.2013.8.16" />
+    </dependencies>
   </metadata>
   <files>
 	<file src="EZLibrary.WindowsPhone\bin\Release\*.*" target="lib\sl3-wp" />
